@@ -5,7 +5,7 @@ require("core-js/modules/web.dom-collections.iterator.js");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = FirebaseAuth;
+exports.default = FirebaseUi;
 
 require("core-js/modules/es.promise.js");
 
@@ -20,7 +20,7 @@ const ELEMENT_ID = "firebaseui_container"; // Promise that resolves unless the F
 
 let firebaseUiDeletion = Promise.resolve();
 
-function FirebaseAuth(_ref) {
+function FirebaseUi(_ref) {
   let {
     uiConfig,
     firebaseAuth,

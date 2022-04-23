@@ -30,3 +30,8 @@ export function Login(){
     return <FirebaseUi uiConfig, firebaseAuth={auth}, className="LoginDiv",onAuthStateChanged }/>
 }
 ```
+
+## Import The Unbuild File
+```
+import FirebaseUi from "firebaseui_react_v9/raw";
+```

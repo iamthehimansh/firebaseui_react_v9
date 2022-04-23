@@ -26,13 +26,16 @@
     "firebasev9",
     "firebaseui-react-v9"
   ],
-  "author": "",
+  "author": "Himansh Raj (iamthehimansh)",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.17.6",
     "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7"
+  },
+  "bugs": {
+    "url": "https://github.com/iamthehimansh/firebaseui_react_v9/issues"
   },
   "repository": {
     "type": "git",
