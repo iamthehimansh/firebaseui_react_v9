@@ -25,11 +25,9 @@ function FirebaseUi(_ref) {
     uiConfig,
     firebaseAuth,
     className,
-    onAuthStateChanged,
-    importCss = true
+    onAuthStateChanged
   } = _ref;
   (0, _react.useEffect)(() => {
-    if (importCss) require("firebaseui/dist/firebaseui.css");
     let firebaseUiWidget;
     let userSignedIn = false;
     let unregisterAuthObserver;

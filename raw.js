@@ -1,4 +1,10 @@
-import FirebaseUi from "./lib";
-
-export default FirebaseUi;
-export {FirebaseUi};
+import FirebaseUi from "./lib"
+import React from 'react'
+export default FirebaseUi4ReactJs
+function FirebaseUi4ReactJs(){
+    React.useState(()=>{
+        require("./dist/ui.css")
+    })
+    return <FirebaseUi/>
+}
+export {FirebaseUi4ReactJs as FirebaseUi4ReactJs, FirebaseUi}
