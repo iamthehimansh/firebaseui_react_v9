@@ -6,14 +6,14 @@ Object.defineProperty(exports, "__esModule", {
 Object.defineProperty(exports, "FirebaseUi", {
   enumerable: true,
   get: function get() {
-    return _lib.default;
+    return _dist.default;
   }
 });
 exports.default = void 0;
 
-var _lib = _interopRequireDefault(require("./lib"));
+var _dist = _interopRequireDefault(require("./dist"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _default = _lib.default;
+var _default = _dist.default;
 exports.default = _default;

@@ -1,6 +1,6 @@
 {
   "name": "firebaseui_react_v9",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "FirebaseUI React v9",
   "private": false,
   "main": "index.js",
@@ -8,7 +8,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "build": "rm -rf dist && NODE_ENV=production babel lib --out-dir dist --copy-files && cp lib/ui.css dist/ui.css",
+    "imp":"rm -rf imp && NODE_ENV=production babel index.js --out-dir imp --copy-files && NODE_ENV=production babel raw.js --out-dir imp --copy-files  && cp imp/raw.js raw.js",
+    "build": "rm -rf dist && NODE_ENV=production babel lib --out-dir dist --copy-files && cp lib/ui.css dist/ui.css && npm run imp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
