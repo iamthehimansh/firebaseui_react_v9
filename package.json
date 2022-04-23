@@ -1,0 +1,41 @@
+{
+  "name": "firebaseui_react_v9",
+  "version": "1.0.0",
+  "description": "FirebaseUI React v9",
+  "private": true,
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production babel lib --out-dir dist --copy-files",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "firebase": "*",
+    "react": "*"
+  },
+  "dependencies": {
+    "firebaseui": "^6.0.1"
+  },
+  "keywords": [
+    "firebase",
+    "firebaseui",
+    "react",
+    "firebaseui-react",
+    "firebasev9",
+    "firebaseui-react-v9"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamthehimansh/firebaseui_react_v9.git"
+}
+}
