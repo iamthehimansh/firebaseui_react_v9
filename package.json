@@ -2,7 +2,7 @@
   "name": "firebaseui_react_v9",
   "version": "1.0.0",
   "description": "FirebaseUI React v9",
-  "private": true,
+  "private": false,
   "main": "index.js",
   "directories": {
     "lib": "lib"
