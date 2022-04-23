@@ -12,7 +12,7 @@ yarn add firebaseui_react_v9
 ```
 import FirebaseUi from "firebaseui_react_v9";
 import {getAuth,onAuthStateChanged,EmailAuthProvider, GoogleAuthProvider,} from "firebase/auth";
-
+import FirebaseUi from "firebaseui_react_v9/ui.css"; 
 
 const uiConfig = {
   // Popup signin flow rather than redirect flow.
