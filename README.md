@@ -1,5 +1,13 @@
 # firebaseui_react_v9
-
+## Install This Package
+```
+npm install firebaseui_react_v9
+```
+### or by Yarn
+```
+yarn add firebaseui_react_v9
+```
+#### NOTE:- YOU Need To Inisilize your Firebase App Before This 
 ## How To use This Library 
 ```
 import FirebaseUi from "firebaseui_react_v9";
